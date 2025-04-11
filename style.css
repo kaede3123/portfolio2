@@ -1,0 +1,116 @@
+body {
+    font-family: VDL-V7Mincho, serif;
+    font-size: 16px;
+}
+p {
+    font-weight: lighter;
+}
+#fv img {
+    width: 100%;
+    margin-bottom: 200px;
+}
+.title {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.title img {
+    width: 30%;
+    height: 30%;
+    margin: auto;
+}
+h2 {
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 4px #9f9f9f;
+}
+#consept p {
+    text-align: center;
+    margin-top: 80px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+#kodawari {
+    background-color: #fffafa;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.kodawari-flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 50px;
+}
+.kodawari-left {
+    margin-right: 30px;
+}
+
+#lineup {
+    margin-top: 200px;
+}
+.lineup-flex {
+    display: flex;
+    justify-content: center;
+}
+.lineup-flex img {
+    margin: 20px;
+}
+#lineup p {
+    text-align: center;
+    margin-top: 50px;
+}
+#button {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .kodawari-flex {
+        flex-direction: column;
+    }
+    #kodawari-text1 {
+        order: 1;
+    }
+    #kodawari-text2{
+        order: 1;
+    }
+    #kodawari-img1{
+        order: 2;
+    }
+    #kodawari-img2{
+        order: 2;
+    }
+    #kodawari p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .kodawari-left {
+        text-align: center;
+    }
+    .kodawari-left img {
+        width: 80%;
+    }
+    .kodawari-right {
+        text-align: center;
+    }
+    .kodawari-right img {
+        width: 80%;
+    }
+    .lineup-flex {
+        flex-direction: column;
+    }
+    .lineup-flex img {
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+}
